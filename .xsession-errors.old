@@ -1,0 +1,7 @@
+urxvt: perl extension 'clipboard' not found in perl library search path
+urxvt: perl extension 'keyboard-select' not found in perl library search path
+urxvt: perl extension 'url-select' not found in perl library search path
+usage: solaar [-h] [-d] [-D PATH] [--restart-on-wake-up] [-w {show,hide,only}]
+              [-b {regular,symbolic,solaar}] [-V] [--help-actions]
+              ...
+solaar: error: unrecognized arguments: --windows=hide

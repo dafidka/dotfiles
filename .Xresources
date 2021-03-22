@@ -1,0 +1,66 @@
+URxvt.font:			xft:Consolas:size=14
+URxvt.scrollBar:		false
+URxvt.saveline: 		2048
+URxvt.internalBorder: 		24
+URxvt.cursorBlinkL:		true
+
+
+
+! Base16 Colors
+! Scheme: mrmrs (http://clrs.cc)
+
+URxvt*background:                     [85]#111111
+URxvt*foreground:                     #bbbbbb
+URxvt*cursorColor:                    #bbbbbb
+
+URxvt*scrollColor:                    #bbbbbb
+URxvt*highlightColor:                 #555555
+URxvt*highlightTextColor:             #999999
+
+URxvt*color0:                         #111111
+URxvt*color1:                         #ff4136
+URxvt*color2:                         #2ecc40
+URxvt*color3:                         #ffdc00
+URxvt*color4:                         #0074d9
+URxvt*color5:                         #b10dc9
+URxvt*color6:                         #7fdbff
+URxvt*color7:                         #bbbbbb
+URxvt*color8:                         #777777
+URxvt*color9:                         #ff4136
+URxvt*color10:                        #2ecc40
+URxvt*color11:                        #ffdc00
+URxvt*color12:                        #0074d9
+URxvt*color13:                        #b10dc9
+URxvt*color14:                        #7fdbff
+URxvt*color15:                        #ffffff
+
+URxvt*color16:                        #ff851b
+URxvt*color17:                        #85144b
+URxvt*color18:                        #333333
+URxvt*color19:                        #555555
+URxvt*color20:                        #999999
+URxvt*color21:                        #dddddd
+
+! urxvt*depth: 32
+
+URxvt*inheritPixmap: true
+URxvt*transparent: true
+! URxvt*shading: 0 to 99 darkens, 101 to 200 lightens
+URxvt*shading: 30
+
+URxvt.perl-ext-common: default,clipboard,url-select,keyboard-select
+URxvt.copyCommand: xclip -i -selection clipboard
+URxvt.pasteCommand: xclip -o -selection clipboard
+URxvt.keysym.M-c: perl:clipboard:copy
+URxvt.keysym.M-v: perl:clipboard:paste
+URxvt.keysym.M-C-v: perl:clipboard:paste_escaped
+URxvt.keysym.M-Escape: perl:keyboard-select:activate
+URxvt.keysym.M-s: perl:keyboard-select:search
+URxvt.keysym.M-u: perl:url-select:select_next
+URxvt.urlLauncher: firefox
+URxvt.underlineURLs: true
+URxvt.urlButton: 1
+
+
+
+Sxiv*background:		#111111
